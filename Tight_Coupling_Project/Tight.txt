@@ -1,0 +1,10 @@
+✅ What is Tight Coupling?
+Tight coupling means one class directly depends on another class. 
+If one changes, the other will likely break or need modification too.
+
+It violates the Open/Closed Principle and reduces flexibility and testability.
+
+🚫 Problem:
+If you want to switch to DieselEngine, you must edit the Car class.
+
+Not flexible or scalable.
